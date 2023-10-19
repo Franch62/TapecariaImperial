@@ -4,6 +4,7 @@
 * {
     padding: 0;
     margin: 0 !important;
+    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
 
@@ -12,6 +13,14 @@ body,
 ul {
     margin: 0;
     padding: 0;
+}
+
+.header-home {
+    background: url(/img/luxury-car-interior.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+    width: 100%;
+    min-width: 300px;
 }
 
 header a {
@@ -42,6 +51,7 @@ header {
     display: flex;
     list-style: none;
     gap: .5rem;
+    min-width: 300px;
 }
 
 #menu a {
@@ -93,6 +103,7 @@ header {
 
     #nav.active #hamburguer::before {
         transform: rotate(135deg);
+
     }
 
     #nav.active #hamburguer::after {
@@ -104,6 +115,7 @@ header {
         display: block;
         position: absolute;
         width: 100%;
+        min-width: 300px;
         top: 70px;
         right: 0px;
         background: #75757540;
@@ -119,6 +131,7 @@ header {
         height: calc(100vh - 70px);
         visibility: visible;
         overflow-y: auto;
+        min-width: 300px;
     }
 
     #menu a {
@@ -128,7 +141,101 @@ header {
     }
 }
 
+
 /*___Content___________________________________________________________________________________*/
+
+.container-contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px), 1fr); */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #3b3737;
+    gap: 4px;
+}
+
+.container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px 45px;
+    width: 500px;
+
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.container-form h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.container-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: sans-serif;
+    gap: 4px;
+    min-width: 300px;
+}
+
+.container-form label {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.container-form input {
+    background: #000000c2;
+    border-style: none;
+    border: 1px solid #F2f2f2;
+    padding: .6rem;
+    color: #F2f2f2;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.container-form input:focus {
+
+    border-radius: 16px;
+}
+
+.container-form textarea {
+    background: #000000c2;
+    border: 1px solid #ffffff;
+    color: #FFF;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.container-form textarea:focus {
+    border-radius: 15px;
+}
+
+.container-form button {
+    border: 1px solid #FFFF;
+    padding: .9rem;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    color: white;
+}
+
+.container-form button:hover {
+    background: crimson;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+}
 
 
 /*--------------------------------SobFooter----------------------------------*/

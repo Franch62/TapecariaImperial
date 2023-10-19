@@ -1,5 +1,5 @@
 /*____________HEADER______________________________*/
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
 
 * {
@@ -259,67 +259,7 @@ section.module.parallax h1 {
     }
 }
 
-/*--------------------------------SobFooter----------------------------------*/
-
-.conteudo h1 {
-    font-size: 15vw;
-    text-transform: uppercase;
-}
-
-.footer {
-    width: 100%;
-    min-height: 20px;
-    background: #d82130;
-    display: flex;
-}
-
-.footer .boxs {
-    width: 320px;
-    min-height: 80px;
-    padding: 20px;
-    gap: 3rem;
-}
-
-
-.footer .boxs:nth-child(4) {
-    width: 400px;
-}
-
-
-.boxs h2 {
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-
-.boxs ul li {
-    margin: 10px 0px;
-    list-style: none;
-}
-
-.boxs ul li a {
-    color: #ddd;
-    text-decoration: none;
-}
-
-.boxs ul li a:hover {
-    color: #fff;
-    transition: all 0.4s;
-}
-
-.boxs p {
-    color: #fff;
-    text-align: justify;
-}
-
-@media(max-width:950px) {
-    foother {
-        flex-direction: column
-    }
-}
-
 /*--------------------------Footer----------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
 :root {
     --color-neutral-0: #0e0c0c;
