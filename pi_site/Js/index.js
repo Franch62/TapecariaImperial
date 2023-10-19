@@ -25,3 +25,16 @@ document.querySelector('.popup-image span').onclick = () => {
         document.querySelector('.popup-image').style.display = 'none';
     }
 }
+
+//123123123
+
+function messageMkt(sendMessage) {
+
+    let btnSendMessage = document.getElementById('sendMessage');
+    btnSendMessage.click = window.location.href = "http://127.0.0.1:5501/index.html"
+}
+function redirectAlert(alertIndex) {
+    if (btnSendMessage.click = window.location.href = "http://127.0.0.1:5501/index.html") {
+
+    }
+}
